@@ -25,7 +25,7 @@ Requires ~ffmpeg~ and ~ffprobe~ to be installed.
 ** License
 Fair License
 
-<Copyright Information>
+Lukas Hozda, 2024
 
 Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.
 
