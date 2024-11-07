@@ -1,0 +1,32 @@
+* musicedit
+Create music edits (slideshows) from a folder of images and an audio track.
+
+** Usage
+#+begin_src sh
+musicedit -a <AUDIO_FILE> -i <IMAGE_FOLDER> [OPTIONS]
+
+Options:
+  -a, --audio <AUDIO>    Path to the audio file
+  -i, --images <IMAGES>  Directory containing images
+  -f, --fade <FADE>      Fade duration in seconds [default: 2.0]
+  -o, --output <OUTPUT>  Output filename [default: output.mp4]
+  -h, --help            Print help
+  -V, --version         Print version
+#+end_src
+
+The program:
+- Scales images to 1920x1080 while maintaining aspect ratio
+- Centers images with black bars where needed
+- Creates smooth transitions with configurable fade duration
+- Distributes images evenly across the audio duration
+
+Requires ~ffmpeg~ and ~ffprobe~ to be installed.
+
+** License
+Fair License
+
+<Copyright Information>
+
+Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.
+
+DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.

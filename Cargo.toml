@@ -1,0 +1,11 @@
+[package]
+name = "musicedit"
+version = "0.1.0"
+edition = "2021"
+author = "Lukas Hozda <luk.hozda@gmail.com>"
+description = "Make a music image slideshow edit"
+license = "Fair"
+
+[dependencies]
+anyhow = "1.0.93"
+clap = { version = "4.5.20", features = ["derive"] }
